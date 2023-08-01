@@ -1,0 +1,201 @@
+body {
+  margin: 0px;
+  padding:0px;
+
+
+}
+.background1{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(main.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 1000px;
+  width: auto;
+}
+.logo{
+  position: center;
+  height: 300px;
+  width: 400px;
+  cursor: pointer;
+}
+
+
+.navbar {
+  padding: 10px;
+  position: top left;
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+  background-color: #555;
+}
+
+h1{
+  background-color: white;
+  color: blue;
+  text-align: center;
+text-shadow: 2px 2px 5px red;
+}
+
+p{
+  color: orange;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1.5;
+  font-size: 28px;
+  border-style: solid;
+  border-color: green;
+
+}
+
+.background2{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(register.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+  width: auto;
+}
+
+h2{
+font-family: 'Bebas Neue', sans-serif;
+background-color: white;
+color: blue;
+text-align: center;
+text-shadow: 2px 2px 5px red;
+}
+
+
+
+/*Contact */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #blue;
+  color: #blue;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #blue;
+}
+.background3{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(contact.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+  width: auto;
+}
+
+.background4{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(gallery.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+  width: auto;
+}
+
+/*Gallery*/
+.gallery {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnails img {
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+.lightbox p {
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+}
+
+.close-btn {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+h3{
+
+  
+  font-family: 'Lilita One', cursive;
+
+
+
+background-color: white;
+color: blue;
+text-align: center;
+text-shadow: 2px 2px 5px yellow;
+}
